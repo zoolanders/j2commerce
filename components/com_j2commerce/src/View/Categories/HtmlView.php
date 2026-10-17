@@ -203,6 +203,7 @@ class HtmlView extends BaseHtmlView
         $this->prepareDocument();
 
         if (!empty($view_html)) {
+            // ZOOLANDERS - WE NEED A FIX HERE
             echo $view_html;
 
             return;

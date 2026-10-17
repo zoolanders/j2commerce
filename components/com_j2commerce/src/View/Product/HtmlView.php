@@ -169,6 +169,7 @@ class HtmlView extends BaseHtmlView
 
         // If a plugin provided HTML output, display it and return
         if (!empty($view_html)) {
+            // ZOOLANDERS - WE NEED A FIX HERE
             echo $view_html;
 
             return;
